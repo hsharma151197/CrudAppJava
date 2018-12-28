@@ -54,6 +54,22 @@ class Customer implements Comparable<Customer> {
 	public int compareTo(Customer o) {
 		return ((Integer)this.id).compareTo(o.id);
 	}
+//	@Override
+//	public boolean equals(Object object){
+//		if(this==object){
+//			return true;
+//		}
+//		if(object instanceof Customer){
+//			Customer customer = (Customer) object;
+//			if(this.id == customer.id && this.name==null){
+//				return true;
+//			}
+//			if(this.id==customer.id && this.name.equals(customer.name) && this.city.equals(customer.city)){
+//				return true;
+//			}
+//		}
+//		return false;
+//	}
 }
 
 public class CRUD_App {
